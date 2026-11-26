@@ -1,0 +1,9 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "bracketSameLine": true,
+  "insertFinalNewline": false,
+  "sortImports": true,
+  "sortPackageJson": true,
+  "ignorePatterns": ["dist/", "pnpm-lock.yaml", "AGENTS.md"],
+  "overrides": [{ "files": ["*.md", "*.yaml", "*.yml"], "options": { "insertFinalNewline": true } }]
+}
